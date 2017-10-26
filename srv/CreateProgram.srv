@@ -1,0 +1,8 @@
+# Service name: rapid_pbd/create_program
+# The service takes an empty request, create a program, and
+# Reply the program id to the service caller
+
+# Request: No request content
+---
+# Response:
+string db_id # Refers to program id

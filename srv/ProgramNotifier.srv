@@ -1,4 +1,0 @@
-# This is for rapid_pbd/program_creation_notifier
-string name # Refers to name of the program
----
-string db_id # Refers to program id
