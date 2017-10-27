@@ -2,7 +2,8 @@
 # The service takes an empty request, create a program, and
 # Reply the program id to the service caller
 
-# Request: No request content
+# Request:
+string name # Refers to program name
 ---
 # Response:
 string db_id # Refers to program id
