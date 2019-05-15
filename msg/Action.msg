@@ -9,7 +9,7 @@ string MOVE_TO_CARTESIAN_GOAL = move to cartesian goal
 
 ## The second set of actions are perception actions that update the world representation.
 # Find tabletop objects
-string DETECT_TABLETOP_OBJECTS = detect tabletop objects
+string DETECT_SURFACE_OBJECTS = detect surface objects
 # Find a custom landmark
 string FIND_CUSTOM_LANDMARK = find custom landmark
 
@@ -29,7 +29,7 @@ string actuator_group
 
 # Acutation specifications
 ## If type == ACTUATE_GRIPPER
-control_msgs/GripperCommand gripper_command 
+control_msgs/GripperCommand gripper_command
 
 ## If type == MOVE_TO_JOINT_GOAL
 ## Used to move the head, torso, arm, or a custom set of joints
